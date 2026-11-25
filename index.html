@@ -1,108 +1,411 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publish Web Pages</title>
+
+    <title>RIDLEY | PORTFOLIO</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Ridley Christoferson</h1>
-    <h2>Net ID: m93n559</h2>
-    <a href="https://wraiiths.github.io/">GitHub Pages Site</a>
 
-    <h2>Class Schedule</h2>
+    <!-- NAVIGATION -->
 
-    <table>
-        <tr>
-            <th>Time</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-        </tr>
+    <header class="navbar">
 
-        <tr>
-            <td>10:00 AM</td>
-            <td>Software Eng. Applications</td>
-            <td></td>
-            <td>Software Eng. Applications</td>
-            <td></td>
-            <td>Software Eng. Applications</td>
-        </tr>
+        <a href="#home" class="logo">RC<span>.</span></a>
 
-        <tr>
-            <td>11:00 AM</td>
-            <td>UI Design</td>
-            <td></td>
-            <td>UI Design</td>
-            <td></td>
-            <td>UI Design</td>
-        </tr>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+        </button>
 
-        <tr>
-            <td>11:50 AM</td>
-        </tr>
+        <nav class="nav-links" id="navLinks">
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#experience">EXPERIENCE</a>
+            <a href="#projects">PROJECTS</a>
+        </nav>
 
-        <tr>
-            <td>10:50 AM</td>
-            <td></td>
-            <td>Multicultural Edu.</td>
-            <td></td>
-            <td>Multicultural Edu.</td>
-            <td></td>
-        </tr>
+    </header>
 
-        <tr>
-            <td>12:05 PM</td>
-        </tr>
 
-        <tr>
-            <td>1:10 PM</td>
-            <td>Web Development</td>
-            <td></td>
-            <td>Web Development</td>
-            <td></td>
-            <td>Web Development</td>
-        </tr>
+    <!-- HERO SECTION -->
 
-        <tr>
-            <td>2:00 PM</td>
-        </tr>
+    <main>
 
-        <tr>
-            <td>1:40 PM</td>
-            <td></td>
-            <td>Struct, Funct of Language</td>
-            <td></td>
-            <td>Struc, Funct of Language</td>
-            <td></td>
-        </tr>
+    <section class="hero" id="home">
 
-        <tr>
-            <td>2:55 PM</td>
-        </tr>
+        <div class="hero-top">
+            <span>PORTFOLIO / 2026</span>
+            <span>COMPUTER SCIENCE × EDUCATION</span>
+        </div>
 
-        <tr>
-            <td>3:10 PM</td>
-            <td>Literary Criticism</td>
-            <td></td>
-            <td>Literary Criticism</td>
-            <td></td>
-        </tr>
+        <div class="hero-content">
 
-        <tr>
-            <td>4:25 PM</td>
-        </tr>
-    </table>
+            <p class="eyebrow">COMPUTER SCIENCE / EDUCATION / ACCESSIBILITY</p>
 
-    <h2>Previous Classes</h2>
-    <ul>
-        <li>CSCI 127</li>
-        <li>CSCI 132</li>
-        <li>CSCI 232</li>
-        <li>CSCI 112</li>
-        <li>ESOF 322</li>
-    </ul>
+            <h1>
+                THINK<span>.</span><br>
+                <em>CREATE.</em><br>
+                EMPOWER<span>.</span>
+            </h1>
+
+            <div class="hero-bottom">
+
+                <p>
+                    Exploring how technology, creativity, and education
+                    can make learning more accessible and meaningful.
+                </p>
+
+                <a href="#projects" class="explore-link">
+                    EXPLORE MY WORK
+                    <span>↘</span>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-decoration">01</div>
+
+        <div class="scroll-indicator">
+            SCROLL TO EXPLORE ↓
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about section" id="about">
+
+        <div class="section-label">
+            <span>01 / ABOUT ME</span>
+            <span>THE PERSON BEHIND THE WORK</span>
+        </div>
+
+        <div class="about-layout">
+
+            <div class="about-heading">
+                <h2>
+                    A LITTLE<br>
+                    ABOUT <em>ME.</em>
+                </h2>
+
+                <div class="about-number">01—03</div>
+            </div>
+
+            <div class="about-text">
+
+                <p class="large-text">
+                    I'm a Computer Science and Education student
+                    interested in using technology to create
+                    meaningful learning experiences.
+                </p>
+
+                <p>
+                    My interest in computer science began with video games.
+                    What started as an interest in the technology behind
+                    the games I enjoyed grew into a passion for understanding
+                    how technology works and what people can create with it.
+                </p>
+
+                <p>
+                    I've always wanted to teach, so combining computer
+                    science and education felt like a natural path.
+                    Through classroom experiences, I've become especially
+                    interested in making computer science accessible
+                    and engaging for younger students.
+                </p>
+
+                <p>
+                    I believe that problem-solving, creativity, and media
+                    literacy are increasingly important in a world shaped
+                    by artificial intelligence and rapidly changing
+                    technology. I want to help students become more than
+                    technology users: I want to help them understand,
+                    question, and create with it.
+                </p>
+
+                <a href="#skills" class="text-link">
+                    MORE ABOUT MY SKILLS ↘
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+
+    <section class="skills section" id="skills">
+
+        <div class="section-label">
+            <span>02 / SKILLS</span>
+            <span>MY TOOLKIT</span>
+        </div>
+
+        <h2 class="section-heading">
+            WHAT I <em>BRING.</em>
+        </h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <span class="card-number">01</span>
+                <h3>DEVELOPMENT</h3>
+                <p>
+                    HTML · CSS · JavaScript
+                    <br>
+                    Python · Java · PHP
+                    <br>
+                    TypeScript · Other web technologies
+                </p>
+                <span class="card-arrow">↗</span>
+            </div>
+
+            <div class="skill-card">
+                <span class="card-number">02</span>
+                <h3>UX / UI DESIGN</h3>
+                <p>
+                    Adobe Express · Adobe XD
+                    <br>
+                    User research · Empathy mapping
+                    <br>
+                    Prototyping · Visual design
+                </p>
+                <span class="card-arrow">↗</span>
+            </div>
+
+            <div class="skill-card">
+                <span class="card-number">03</span>
+                <h3>PROBLEM SOLVING</h3>
+                <p>
+                    Logical thinking · Debugging
+                    <br>
+                    Algorithms · Iteration
+                    <br>
+                    Critical thinking
+                </p>
+                <span class="card-arrow">↗</span>
+            </div>
+
+            <div class="skill-card">
+                <span class="card-number">04</span>
+                <h3>CREATIVE THINKING</h3>
+                <p>
+                    Brainstorming · Ideation
+                    <br>
+                    Communication · Collaboration
+                    <br>
+                    Creative problem-solving
+                </p>
+                <span class="card-arrow">↗</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE SECTION -->
+
+    <section class="experience section" id="experience">
+
+        <div class="section-label">
+            <span>03 / EXPERIENCE</span>
+            <span>LEARNING · LEADERSHIP · COMMUNITY</span>
+        </div>
+
+        <h2 class="section-heading">
+            WHERE I'VE<br>
+            <em>MADE AN IMPACT.</em>
+        </h2>
+
+        <div class="experience">
+
+            <div class="experience-heading">
+                <span>LEADERSHIP & EXPERIENCE</span>
+                <span>01—03</span>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-date">[YEAR — PRESENT]</div>
+
+                <div>
+                    <h3>Collegiate Esports Club — Vice President</h3>
+                    <p>[University / Organization]</p>
+                    <p class="experience-description">
+                        Lead outreach efforts for the university's esports
+                        club and build connections with high school esports
+                        teams throughout Montana. Through this role, I
+                        connected with the creator of a statewide high school
+                        esports website and created an outreach page where
+                        prospective students can contact me with questions
+                        about attending the university or getting involved
+                        in its esports community.
+                    </p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-date">[SEMESTER / YEAR]</div>
+
+                <div>
+                    <h3>Knowledge and Community — Teaching Assistant</h3>
+                    <p>[College / University]</p>
+                    <p class="experience-description">
+                        Supported students with questions and coursework,
+                        assisted the professor with organization and lesson
+                        planning, and led an entire class period. This
+                        experience strengthened my interest in education,
+                        student engagement, and creating meaningful
+                        learning experiences.
+                    </p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-date">[SEMESTER / YEAR]</div>
+
+                <div>
+                    <h3>Computer Science Classroom Volunteer</h3>
+                    <p>Second-Grade Classroom</p>
+                    <p class="experience-description">
+                        Volunteered in a second-grade classroom for a
+                        semester, introducing students to computer science.
+                        Watching students work through challenges and
+                        experience the satisfaction of getting something
+                        to work was especially rewarding. This experience
+                        also inspired the idea behind Zoo Coding.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+
+    <section class="projects section" id="projects">
+
+        <div class="section-label">
+            <span>04 / SELECTED WORK</span>
+            <span>THINGS I'VE CREATED</span>
+        </div>
+
+        <div class="projects-heading">
+
+            <h2>
+                SELECTED<br>
+                <em>PROJECTS.</em>
+            </h2>
+
+        </div>
+
+
+        <!-- PROJECT ONE: STUDY BUNNY -->
+
+        <button class="project-card project-one"
+                data-project="ux"
+                aria-label="View Study Bunny project">
+
+            <div class="project-info">
+                <span>01 / UX & UI DESIGN</span>
+                <span class="project-arrow">↗</span>
+            </div>
+
+            <div class="project-visual ux-visual">
+                <span class="visual-label">PROJECT / 001</span>
+                <div class="visual-shape shape-one"></div>
+                <div class="visual-shape shape-two"></div>
+                <div class="visual-title">STUDY<br>BUNNY.</div>
+            </div>
+
+            <div class="project-footer">
+                <h3>STUDY BUNNY</h3>
+                <span>RESEARCH · UX · UI · PROTOTYPING</span>
+            </div>
+
+        </button>
+
+
+        <!-- PROJECT TWO: ZOO CODING -->
+
+        <button class="project-card project-two"
+                data-project="zoo"
+                aria-label="View Zoo Coding project">
+
+            <div class="project-info">
+                <span>02 / WEB DEVELOPMENT</span>
+                <span class="project-arrow">↗</span>
+            </div>
+
+            <div class="project-visual zoo-visual">
+                <span class="visual-label">PROJECT / 002</span>
+                <div class="zoo-decoration">&lt;/&gt;</div>
+                <div class="visual-title">ZOO<br>CODING.</div>
+            </div>
+
+            <div class="project-footer">
+                <h3>ZOO CODING</h3>
+                <span>HTML · CSS · JAVASCRIPT</span>
+            </div>
+
+        </button>
+
+
+    </section>
+
+    </main>
+
+
+    <!-- PROJECT DETAIL OVERLAY -->
+
+    <div class="project-overlay" id="projectOverlay" aria-hidden="true">
+
+        <div class="project-detail">
+
+            <button class="close-project" id="closeProject"
+                    aria-label="Close project details">
+                ✕
+            </button>
+
+            <div id="projectContent"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <a href="#home" class="footer-logo">RC<span>.</span></a>
+
+        <p>DESIGNED & BUILT BY RIDLEY CHRISTOFERSON</p>
+
+        <a href="#home">BACK TO TOP ↑</a>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
 </html>
